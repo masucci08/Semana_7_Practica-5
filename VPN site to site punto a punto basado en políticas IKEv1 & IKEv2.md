@@ -11,7 +11,8 @@
 # 🚀 PRIMERA PARTE: VPN SITE TO SITE BASED POLICIES IKEv1
 
 ### Descripción y Topología 
-Esta topología en GNS3 representa un escenario clásico de conectividad segura entre dos sucursales geográficamente separadas a través de una red pública (como Internet).
+Esta topología en GNS3 representa un escenario clásico de conectividad segura entre dos sucursales geográficamente separadas a través de una red pública (como Internet). 
+
 <img width="600" height="686" alt="image" src="https://github.com/user-attachments/assets/c34d1990-1766-4d2c-a9ba-fe59d1573a98" />
 
 
