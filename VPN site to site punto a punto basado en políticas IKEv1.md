@@ -4,13 +4,12 @@
 **Matrícula:** 2024-1250  
 **Asignatura:** Seguridad de Redes  
 **Fecha:** 6/03/2026  
-
-https://itlaedudo-my.sharepoint.com/:v:/g/personal/20241250_itla_edu_do/IQC9IS7YTMRFRrfhPv42-4O2ARYEEgvGf_kd9sbM2h1V5q0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HKtfxR
 ---
+# Link VPN site to site based polices IKEv1 & IKEv2: https://itlaedudo-my.sharepoint.com/:v:/g/personal/20241250_itla_edu_do/IQC9IS7YTMRFRrfhPv42-4O2ARYEEgvGf_kd9sbM2h1V5q0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HKtfxR
 
 ### Descripción y Topología 
-
 Esta topología en GNS3 representa un escenario clásico de conectividad segura entre dos sucursales geográficamente separadas a través de una red pública (como Internet).
+<img width="600" height="686" alt="image" src="https://github.com/user-attachments/assets/c34d1990-1766-4d2c-a9ba-fe59d1573a98" />
 
 
 ### Detalles de la Topología
