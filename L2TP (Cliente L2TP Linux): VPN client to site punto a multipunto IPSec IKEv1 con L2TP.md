@@ -81,28 +81,16 @@ L2TP permite encapsular el tráfico PPP dentro del túnel IPsec.
 vpdn enable 
  vpdn-group L2TP-VPN  accept-dialin   protocol l2tp   virtual-template 1 
   
-11. Interfaz Virtual Template 
+# 11. Interfaz Virtual Template 
+```bash
 Define la configuración para clientes conectados. 
 interface Virtual-Template1  ip unnumbered GigabitEthernet1/0  peer default ip address pool VPNPOOL  ppp authentication ms-chap-v2 
-  
+ 
 Cliente Kali Linux 
 Instalar paquetes: 
 sudo apt install network-manager-l2tp Configurar: 
-•	Gateway → IP pública del router 
-•	Tipo → L2TP/IPsec 
-•	PSK → VPN123 
-13. Verificación 
-Comandos útiles en el router: 
-Estado IKE show crypto isakmp sa 
-Estado IPsec 
-show crypto ipsec sa Sesiones VPN 
-show vpdn session 
-  
-14. Pruebas de Conectividad 
-1.	Conectar cliente VPN 
-2.	Obtener IP del pool 
-3.	Hacer ping a la red interna 
-ping 10.12.50.1 
-Resultado esperado: 
-✔ respuesta desde la red privada. 
- 
+- Gateway → IP pública del router 
+- Tipo → L2TP/IPsec 
+- PSK → VPN123
+```
+
